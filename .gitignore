@@ -9,3 +9,4 @@ __pycache__/
 htmlcov/
 tests/tmp_output/
 tests/tmp_pytest/
+.Rproj.user/
