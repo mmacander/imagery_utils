@@ -1201,9 +1201,9 @@ def calc_stats(args, info):
             omax = 200.0
         elif args.outtype == OutputType.UINT16.value:
             if imax == 2047.0:  # Optical
-                omax = 2000.0
+                omax = 10000.0
             elif imax == 16383.0:  # SWIR and CAVIS
-                omax = 16000.0
+                omax = 10000.0
         elif args.outtype == OutputType.FLOAT32.value:
             omax = 1.0
 
